@@ -1,0 +1,23 @@
+import { ArticleLayout } from "@/components/ArticleLayout";
+export const article = {
+	author: "Bidhan BHandari",
+	date: "2024-02-11",
+	title: "You never know typescript never",
+	description:
+		"You presume to know never type in typescript, and you ignore it. But, knowing how it works can level up your typescript knowledge",
+};
+
+export const metadata = {
+	title: article.title,
+	description: article.description,
+};
+export default (props) => <ArticleLayout article={article} {...props} />;
+
+```c
+     let a = 12;
+     function getNumber(x:number) {
+        return a;
+     }
+     type test = number;
+     // ^? typeof test
+```
